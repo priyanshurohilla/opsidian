@@ -1,0 +1,54 @@
+[
+  {
+    "thread_ts": "1725860000.12345",
+    "channel": "C1234567890",
+    "messages": [
+      {
+        "ts": "1725860000.12345",
+        "user": "U12345",
+        "text": "Hey team, our staging deployment is failing with error: ImagePullBackOff."
+      },
+      {
+        "ts": "1725860010.54321",
+        "user": "U67890",
+        "text": "Looks like the Docker image was not pushed correctly to ECR."
+      },
+      {
+        "ts": "1725860050.67890",
+        "user": "U12345",
+        "text": "Ah right, I forgot to run `docker push` after the build. Pushed it now."
+      },
+      {
+        "ts": "1725860100.98765",
+        "user": "U67890",
+        "text": "Cool. Rerunning the pipeline now, deployment is successful ✅"
+      }
+    ]
+  },
+  {
+    "thread_ts": "1725900000.22222",
+    "channel": "C2345678901",
+    "messages": [
+      {
+        "ts": "1725900000.22222",
+        "user": "U11111",
+        "text": "Why is our pod stuck in CrashLoopBackOff?"
+      },
+      {
+        "ts": "1725900020.33333",
+        "user": "U22222",
+        "text": "Check the logs with `kubectl logs <pod>` — probably configmap missing."
+      },
+      {
+        "ts": "1725900050.44444",
+        "user": "U11111",
+        "text": "Yep, logs show `KeyError: DB_HOST`. We forgot to mount the configmap."
+      },
+      {
+        "ts": "1725900100.55555",
+        "user": "U22222",
+        "text": "Fixed by adding configmap mount in deployment YAML. Restart worked ✅"
+      }
+    ]
+  }
+]

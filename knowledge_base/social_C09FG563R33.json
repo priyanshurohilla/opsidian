@@ -1,0 +1,84 @@
+[
+  {
+    "thread_ts": "1757839372.538929",
+    "channel": "C09FG563R33",
+    "messages": [
+      {
+        "user": "U09FG55RW57",
+        "type": "message",
+        "ts": "1757839372.538929",
+        "client_msg_id": "0a92bc3a-162b-4a01-875e-02598dd9cd2f",
+        "text": "<@U09F3AF48AE>",
+        "team": "T09FG55QCL9",
+        "thread_ts": "1757839372.538929",
+        "reply_count": 1,
+        "reply_users_count": 1,
+        "latest_reply": "1757839738.807379",
+        "reply_users": [
+          "U09F3AF48AE"
+        ],
+        "is_locked": false,
+        "subscribed": false,
+        "blocks": [
+          {
+            "type": "rich_text",
+            "block_id": "X/76N",
+            "elements": [
+              {
+                "type": "rich_text_section",
+                "elements": [
+                  {
+                    "type": "user",
+                    "user_id": "U09F3AF48AE"
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "user": "U09F3AF48AE",
+        "type": "message",
+        "ts": "1757839738.807379",
+        "bot_id": "B09F3AF3G2E",
+        "app_id": "A09F3AJSJ1L",
+        "text": "It looks like you're trying to mention a user from the Slack workspace. If you need help with a particular issue or question, just let me know how I can assist you!",
+        "team": "T09FG55QCL9",
+        "bot_profile": {
+          "id": "B09F3AF3G2E",
+          "deleted": false,
+          "name": "Opsidian",
+          "updated": 1757785661,
+          "app_id": "A09F3AJSJ1L",
+          "user_id": "U09F3AF48AE",
+          "icons": {
+            "image_36": "https://a.slack-edge.com/80588/img/plugins/app/bot_36.png",
+            "image_48": "https://a.slack-edge.com/80588/img/plugins/app/bot_48.png",
+            "image_72": "https://a.slack-edge.com/80588/img/plugins/app/service_72.png"
+          },
+          "team_id": "T09FG55QCL9"
+        },
+        "thread_ts": "1757839372.538929",
+        "parent_user_id": "U09FG55RW57",
+        "blocks": [
+          {
+            "type": "rich_text",
+            "block_id": "E7PTr",
+            "elements": [
+              {
+                "type": "rich_text_section",
+                "elements": [
+                  {
+                    "type": "text",
+                    "text": "It looks like you're trying to mention a user from the Slack workspace. If you need help with a particular issue or question, just let me know how I can assist you!"
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+]

@@ -1,0 +1,14 @@
+[project]
+name = "stoic"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "langchain-chroma>=0.2.6",
+    "langchain-community>=0.3.29",
+    "langchain[openai]>=0.3.27",
+    "langgraph>=0.6.7",
+    "load-dotenv>=0.1.0",
+    "slack-bolt>=1.25.0",
+]

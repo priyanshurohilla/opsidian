@@ -1,0 +1,111 @@
+[
+  {
+    "thread_ts": "1726000000.11111",
+    "channel": "C123AWS111",
+    "messages": [
+      {
+        "ts": "1726000000.11111",
+        "user": "U10001",
+        "text": "Hey team, our EC2 instances in us-east-1 are not reachable via SSH.",
+        "bot_id": null,
+        "reactions": []
+      },
+      {
+        "ts": "1726000050.22222",
+        "user": "U10002",
+        "text": "Check the security groups. Make sure port 22 is open for your IP range.",
+        "bot_id": null,
+        "reactions": []
+      },
+      {
+        "ts": "1726000100.33333",
+        "user": "U10001",
+        "text": "Ah yes, security group was missing the rule. Added it and SSH works now. ✅",
+        "bot_id": null,
+        "reactions": []
+      }
+    ]
+  },
+  {
+    "thread_ts": "1726100000.44444",
+    "channel": "C123AWS222",
+    "messages": [
+      {
+        "ts": "1726100000.44444",
+        "user": "U20001",
+        "text": "Our S3 bucket is giving AccessDenied when trying to upload files via CLI.",
+        "bot_id": null,
+        "reactions": []
+      },
+      {
+        "ts": "1726100050.55555",
+        "user": "U20002",
+        "text": "Check the IAM role attached to your EC2 instance. Make sure it has s3:PutObject permission.",
+        "bot_id": null,
+        "reactions": []
+      },
+      {
+        "ts": "1726100100.66666",
+        "user": "U20001",
+        "text": "Fixed! IAM role was missing the correct policy. Uploads are working now. ✅",
+        "bot_id": null,
+        "reactions": []
+      }
+    ]
+  },
+  {
+    "thread_ts": "1726200000.77777",
+    "channel": "C123AWS333",
+    "messages": [
+      {
+        "ts": "1726200000.77777",
+        "user": "U30001",
+        "text": "RDS instance is failing to connect from our Lambda function.",
+        "bot_id": null,
+        "reactions": []
+      },
+      {
+        "ts": "1726200050.88888",
+        "user": "U30002",
+        "text": "Make sure the Lambda is in the same VPC and security group allows outbound traffic to RDS port 5432.",
+        "bot_id": null,
+        "reactions": []
+      },
+      {
+        "ts": "1726200100.99999",
+        "user": "U30001",
+        "text": "Moved Lambda to correct VPC and updated SG rules. Connection works now. ✅",
+        "bot_id": null,
+        "reactions": []
+      }
+    ]
+  },
+  {
+    "thread_ts": "1726300000.10101",
+    "channel": "C123AWS444",
+    "messages": [
+      {
+        "ts": "1726300000.10101",
+        "user": "U40001",
+        "text": "CloudFormation stack creation fails with ValidationError: Template format error.",
+        "bot_id": null,
+        "reactions": []
+      },
+      {
+        "ts": "1726300050.20202",
+        "user": "U40002",
+        "text": "Check your YAML syntax. A missing colon or incorrect indentation usually causes this.",
+        "bot_id": null,
+        "reactions": []
+      },
+      {
+        "ts": "1726300100.30303",
+        "user": "U40001",
+        "text": "Corrected the YAML indentation. Stack creation succeeded ✅",
+        "bot_id": null,
+        "reactions": []
+      }
+    ]
+  }
+]
+

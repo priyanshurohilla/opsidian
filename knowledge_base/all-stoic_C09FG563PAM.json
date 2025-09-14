@@ -1,0 +1,361 @@
+[
+  {
+    "thread_ts": "1757849161.651419",
+    "channel": "C09FG563PAM",
+    "messages": [
+      {
+        "user": "U09FG55RW57",
+        "type": "message",
+        "ts": "1757849161.651419",
+        "client_msg_id": "2340c335-3cb9-43f2-9580-bab15255650c",
+        "text": "While trying to run build via Jenkins pipeline to create release PRs, it is failing with following  errors-\n<https://jenkins.ops.eng.telusinternational.ai/job/release/job/create-release-PRs/75/console>",
+        "team": "T09FG55QCL9",
+        "thread_ts": "1757849161.651419",
+        "reply_count": 1,
+        "reply_users_count": 1,
+        "latest_reply": "1757849179.818929",
+        "reply_users": [
+          "U09FG55RW57"
+        ],
+        "is_locked": false,
+        "subscribed": false,
+        "blocks": [
+          {
+            "type": "rich_text",
+            "block_id": "FUTnZ",
+            "elements": [
+              {
+                "type": "rich_text_section",
+                "elements": [
+                  {
+                    "type": "text",
+                    "text": "While trying to run build via Jenkins pipeline to create release PRs, it is failing with following  errors-\n"
+                  },
+                  {
+                    "type": "link",
+                    "url": "https://jenkins.ops.eng.telusinternational.ai/job/release/job/create-release-PRs/75/console"
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "user": "U09FG55RW57",
+        "type": "message",
+        "ts": "1757849179.818929",
+        "client_msg_id": "481b0152-1dd4-4cff-9680-fc411f5f1815",
+        "text": "repo name in build is incorrect , please recheck\n```/repos/telusinternationalai/crowd-management-app/git/refs/heads/develop```\n",
+        "team": "T09FG55QCL9",
+        "thread_ts": "1757849161.651419",
+        "parent_user_id": "U09FG55RW57",
+        "blocks": [
+          {
+            "type": "rich_text",
+            "block_id": "8CiX3",
+            "elements": [
+              {
+                "type": "rich_text_section",
+                "elements": [
+                  {
+                    "type": "text",
+                    "text": "repo name in build is incorrect , please recheck\n"
+                  }
+                ]
+              },
+              {
+                "type": "rich_text_preformatted",
+                "elements": [
+                  {
+                    "type": "text",
+                    "text": "/repos/telusinternationalai/crowd-management-app/git/refs/heads/develop"
+                  }
+                ],
+                "border": 0
+              },
+              {
+                "type": "rich_text_section",
+                "elements": []
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "thread_ts": "1757840043.123119",
+    "channel": "C09FG563PAM",
+    "messages": [
+      {
+        "user": "U09FG55RW57",
+        "type": "message",
+        "ts": "1757840043.123119",
+        "client_msg_id": "eede94ba-c588-401b-8d28-6a55a581cacd",
+        "text": "We are facing some issues with pmp-consumer.\nThe application seems not online in staging env.\nCan someone please help us pinpoint the root cause?\nTIA",
+        "team": "T09FG55QCL9",
+        "thread_ts": "1757840043.123119",
+        "reply_count": 1,
+        "reply_users_count": 1,
+        "latest_reply": "1757840057.356539",
+        "reply_users": [
+          "U09FG55RW57"
+        ],
+        "is_locked": false,
+        "subscribed": false,
+        "blocks": [
+          {
+            "type": "rich_text",
+            "block_id": "Gw9WK",
+            "elements": [
+              {
+                "type": "rich_text_section",
+                "elements": [
+                  {
+                    "type": "text",
+                    "text": "We are facing some issues with pmp-consumer.\nThe application seems not online in staging env.\nCan someone please help us pinpoint the root cause?\nTIA"
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "user": "U09FG55RW57",
+        "type": "message",
+        "ts": "1757840057.356539",
+        "client_msg_id": "e2935cef-f279-4ede-afe8-92b85987ffe5",
+        "text": "this argo app doesnt have values-staging file , added now. please sync the app and check if working",
+        "team": "T09FG55QCL9",
+        "thread_ts": "1757840043.123119",
+        "parent_user_id": "U09FG55RW57",
+        "blocks": [
+          {
+            "type": "rich_text",
+            "block_id": "cAeG+",
+            "elements": [
+              {
+                "type": "rich_text_section",
+                "elements": [
+                  {
+                    "type": "text",
+                    "text": "this argo app doesnt have values-staging file , added now. please sync the app and check if working"
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "thread_ts": "1757839558.277319",
+    "channel": "C09FG563PAM",
+    "messages": [
+      {
+        "user": "U09FG55RW57",
+        "type": "message",
+        "ts": "1757839558.277319",
+        "edited": {
+          "user": "U09FG55RW57",
+          "ts": "1757839730.000000"
+        },
+        "client_msg_id": "ffc42b35-3b0f-4ec1-8f5b-5200d6ea9a6d",
+        "text": "I am facing issue with jenkins. Agents are offline",
+        "team": "T09FG55QCL9",
+        "thread_ts": "1757839558.277319",
+        "reply_count": 3,
+        "reply_users_count": 1,
+        "latest_reply": "1757839616.045629",
+        "reply_users": [
+          "U09FG55RW57"
+        ],
+        "is_locked": false,
+        "subscribed": false,
+        "blocks": [
+          {
+            "type": "rich_text",
+            "block_id": "rFf3p",
+            "elements": [
+              {
+                "type": "rich_text_section",
+                "elements": [
+                  {
+                    "type": "text",
+                    "text": "I am facing issue with jenkins. Agents are offline"
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "user": "U09FG55RW57",
+        "type": "message",
+        "ts": "1757839575.310379",
+        "client_msg_id": "cf7e2e8e-72cd-4b7c-8bae-d59e8be16c3d",
+        "text": "Checking",
+        "team": "T09FG55QCL9",
+        "thread_ts": "1757839558.277319",
+        "parent_user_id": "U09FG55RW57",
+        "blocks": [
+          {
+            "type": "rich_text",
+            "block_id": "/QqO4",
+            "elements": [
+              {
+                "type": "rich_text_section",
+                "elements": [
+                  {
+                    "type": "text",
+                    "text": "Checking"
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "user": "U09FG55RW57",
+        "type": "message",
+        "ts": "1757839606.183029",
+        "client_msg_id": "cfbfbed6-c859-4640-ac93-eb665a025a5c",
+        "text": "Seems like, due to spot interference jenkins agents went offline, Bringing them online",
+        "team": "T09FG55QCL9",
+        "thread_ts": "1757839558.277319",
+        "parent_user_id": "U09FG55RW57",
+        "blocks": [
+          {
+            "type": "rich_text",
+            "block_id": "AC8Oe",
+            "elements": [
+              {
+                "type": "rich_text_section",
+                "elements": [
+                  {
+                    "type": "text",
+                    "text": "Seems like, due to spot interference jenkins agents went offline, Bringing them online"
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "user": "U09FG55RW57",
+        "type": "message",
+        "ts": "1757839616.045629",
+        "client_msg_id": "ccb6478f-d335-498f-a5a5-f815d4b9c10f",
+        "text": "Thanks it worked",
+        "team": "T09FG55QCL9",
+        "thread_ts": "1757839558.277319",
+        "parent_user_id": "U09FG55RW57",
+        "blocks": [
+          {
+            "type": "rich_text",
+            "block_id": "K8N65",
+            "elements": [
+              {
+                "type": "rich_text_section",
+                "elements": [
+                  {
+                    "type": "text",
+                    "text": "Thanks it worked"
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "thread_ts": "1757839359.159639",
+    "channel": "C09FG563PAM",
+    "messages": [
+      {
+        "user": "U09FG55RW57",
+        "type": "message",
+        "ts": "1757839359.159639",
+        "client_msg_id": "23f8c325-70c6-4eb7-9f28-12c66b01fb95",
+        "text": "<@U09F3AF48AE>",
+        "team": "T09FG55QCL9",
+        "thread_ts": "1757839359.159639",
+        "reply_count": 1,
+        "reply_users_count": 1,
+        "latest_reply": "1757839729.152789",
+        "reply_users": [
+          "U09F3AF48AE"
+        ],
+        "is_locked": false,
+        "subscribed": false,
+        "blocks": [
+          {
+            "type": "rich_text",
+            "block_id": "X/76N",
+            "elements": [
+              {
+                "type": "rich_text_section",
+                "elements": [
+                  {
+                    "type": "user",
+                    "user_id": "U09F3AF48AE"
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "user": "U09F3AF48AE",
+        "type": "message",
+        "ts": "1757839729.152789",
+        "bot_id": "B09F3AF3G2E",
+        "app_id": "A09F3AJSJ1L",
+        "text": "It looks like you mentioned a user in a format typically used for mentioning individuals in Slack. How can I assist you with this?",
+        "team": "T09FG55QCL9",
+        "bot_profile": {
+          "id": "B09F3AF3G2E",
+          "deleted": false,
+          "name": "Opsidian",
+          "updated": 1757785661,
+          "app_id": "A09F3AJSJ1L",
+          "user_id": "U09F3AF48AE",
+          "icons": {
+            "image_36": "https://a.slack-edge.com/80588/img/plugins/app/bot_36.png",
+            "image_48": "https://a.slack-edge.com/80588/img/plugins/app/bot_48.png",
+            "image_72": "https://a.slack-edge.com/80588/img/plugins/app/service_72.png"
+          },
+          "team_id": "T09FG55QCL9"
+        },
+        "thread_ts": "1757839359.159639",
+        "parent_user_id": "U09FG55RW57",
+        "blocks": [
+          {
+            "type": "rich_text",
+            "block_id": "+H8E",
+            "elements": [
+              {
+                "type": "rich_text_section",
+                "elements": [
+                  {
+                    "type": "text",
+                    "text": "It looks like you mentioned a user in a format typically used for mentioning individuals in Slack. How can I assist you with this?"
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+]

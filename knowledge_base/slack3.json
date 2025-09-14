@@ -1,0 +1,112 @@
+[
+  {
+    "thread_ts": "1726000000.11111",
+    "channel": "C1111111111",
+    "messages": [
+      {
+        "ts": "1726000000.11111",
+        "user": "U11111",
+        "text": "Team, our EC2 instances are getting terminated unexpectedly."
+      },
+      {
+        "ts": "1726000020.22222",
+        "user": "U22222",
+        "text": "Check the ASG settings. Maybe the health check is failing and terminating them."
+      },
+      {
+        "ts": "1726000050.33333",
+        "user": "U11111",
+        "text": "Yep, found it. The ELB health check path was misconfigured. Fixed now."
+      },
+      {
+        "ts": "1726000100.44444",
+        "user": "U22222",
+        "text": "Nice. After fixing, the ASG should stabilize."
+      }
+    ]
+  },
+  {
+    "thread_ts": "1726100000.55555",
+    "channel": "C2222222222",
+    "messages": [
+      {
+        "ts": "1726100000.55555",
+        "user": "U33333",
+        "text": "Our RDS instance is in 'storage-full' state."
+      },
+      {
+        "ts": "1726100020.66666",
+        "user": "U44444",
+        "text": "That happens if allocated storage is exceeded. Either increase storage or enable autoscaling."
+      },
+      {
+        "ts": "1726100050.77777",
+        "user": "U33333",
+        "text": "We increased allocated storage from 20GB → 100GB. DB is back online now."
+      }
+    ]
+  },
+  {
+    "thread_ts": "1726200000.88888",
+    "channel": "C3333333333",
+    "messages": [
+      {
+        "ts": "1726200000.88888",
+        "user": "U55555",
+        "text": "Getting `ThrottlingException` from AWS API calls in our CI pipeline."
+      },
+      {
+        "ts": "1726200020.99999",
+        "user": "U66666",
+        "text": "Means we’re hitting API rate limits. Add retries with exponential backoff."
+      },
+      {
+        "ts": "1726200050.12345",
+        "user": "U55555",
+        "text": "Implemented retry logic in the pipeline, issue is gone ✅"
+      }
+    ]
+  },
+  {
+    "thread_ts": "1726300000.54321",
+    "channel": "C4444444444",
+    "messages": [
+      {
+        "ts": "1726300000.54321",
+        "user": "U77777",
+        "text": "Our Kubernetes pod is stuck in `Pending` state for 20 minutes."
+      },
+      {
+        "ts": "1726300020.65432",
+        "user": "U88888",
+        "text": "Check `kubectl describe pod` — probably no nodes match the resource requests."
+      },
+      {
+        "ts": "1726300050.76543",
+        "user": "U77777",
+        "text": "Yep, pod requested 4 CPUs but nodes only have 2. Reduced resource requests, pod is running now."
+      }
+    ]
+  },
+  {
+    "thread_ts": "1726400000.87654",
+    "channel": "C5555555555",
+    "messages": [
+      {
+        "ts": "1726400000.87654",
+        "user": "U99999",
+        "text": "S3 bucket uploads are failing with AccessDenied."
+      },
+      {
+        "ts": "1726400020.98765",
+        "user": "U10101",
+        "text": "Check the IAM policy. Maybe the role lost PutObject permission."
+      },
+      {
+        "ts": "1726400050.19876",
+        "user": "U99999",
+        "text": "Confirmed. Added `s3:PutObject` to the policy. Uploads are working now ✅"
+      }
+    ]
+  }
+]
